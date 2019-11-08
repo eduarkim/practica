@@ -1,0 +1,139 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  color:white;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+header{
+  background-color: #2C3E50;
+  color:white;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+nav ul {
+
+  list-style-type: none;
+  display:flex;
+
+}
+
+nav ul li{
+
+  margin-right: 10px;
+
+}
+
+nav ul li a{
+  display:block;
+color:white;
+}
+.sectiontitulo{
+  background-color: #18BC9C;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+h1{
+  margin-top: 20px;
+}
+.divportafolio h2{
+  color:black;
+
+}
+.divportafolio{
+  text-align: center;
+}
+
+
+.white{
+  fill:white;
+}
+
+.sectioncentral{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+}
+.sectioncentral article{
+width: 300px;
+margin-bottom: 20px;
+}
+
+.sectioncentral article img{
+  width: 100%;
+}
+
+.sectionabout{
+  background-color: #18BC9C;
+  text-align: center;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+
+
+.divcontacto{
+  padding-top: 20px;
+  text-align: center;
+}
+.divcontacto h2{
+  color:black;
+
+}
+.sectionformulario{
+  /* width: 400px; */
+  margin: 0 auto;
+}
+.divformulario{
+display:flex;
+
+justify-content: center;
+}
+
+.divformulario .btn-primary {
+  background-color: #18BC9C;
+}
+
+footer{
+  background-color: #2C3E50;
+  margin-top: 30px;
+
+
+}
+.footersuperior{
+  padding-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+  text-align: center;
+}
+
+.footerinferior{
+  background-color: black;
+  text-align: center;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
+.footersuperior img{
+  width: 60px;
+}
+
+.verde{
+  color:#18BC9C;
+}
